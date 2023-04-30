@@ -1,0 +1,25 @@
+
+.item{
+        display: flex;
+        height: 50px;
+         width: 300px;
+        border: 2px solid black;
+        margin-bottom: 20px;
+        padding: 10px;
+        list-style: none;
+        background-color: white;
+        box-shadow: 10px 5px 5px rgb(91, 87, 87);
+}
+.status{
+        height: 10px;
+        width: 10px;
+      border: 1px solid black;  
+      border-radius: 50%;
+      background-color: aqua;
+}
+.online{
+background-color: green;
+}
+.status.ofline{
+background-color: red;
+}
