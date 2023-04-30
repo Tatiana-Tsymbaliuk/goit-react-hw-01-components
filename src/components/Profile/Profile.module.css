@@ -1,6 +1,7 @@
 .profile{
         /* align-items: center; */
         margin-top: 50px;
+        margin-bottom: 50px;
         height: 400px;
         width: 320px;
         margin-left: auto;
@@ -11,17 +12,11 @@
       border-radius: 8px;
 }
 
-
-
-
-
 .description {
-        
-       padding: 5px;      
+     padding: 5px;      
 }
 
-.avatar{
-        
+.avatar{        
         display: flex;
         height: 150px;
         width: 150px;
@@ -36,48 +31,50 @@
         justify-content: center;
         margin-top: 30px;
         font-weight: 500;
-                font-size: 25px;
+        font-size: 25px;
 }
 .tag{
-display: flex;
+        display: flex;
         justify-content: center;
         color: #757575;
 }
 .location{
         display: flex;
-                justify-content: center;
-                color: #757575;
-                margin-bottom: 40px;
+        justify-content: center;
+        color: #757575;
+        margin-bottom: 40px;
 }
 .stats{
-       
-       background-color: #e1dbdb;
-        border-top: 1px solid grey;
+        border-top: 1px solid black; 
+        
+         flex-wrap: wrap;
         display: flex;
-        flex-wrap: wrap;
-        gap:20px;
-        justify-content:space-around;
-                margin-left: auto;
-                margin-right: auto;
-        text-align: center;
+        gap: 45px;
+        /* align-items: center;
+        text-align: center; */
+        justify-content: center;
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
         list-style: none;
-                margin: 0;
-                /* padding: 0; */
+
+       
+                
 }
 .quantity {
-  font-size: 15px; 
-font-weight: 900;
-display: flex;
-margin-top: 15px;
-margin-left: auto;
-        margin-right: auto;
+        font-size: 17px; 
+        font-weight: 900;
+        display: flex;
         justify-content:center;
         margin: 0;
         
+     
                
 }
 .label {
 display: flex;
+margin-top:15px;
+margin-bottom: 7px;
         margin-left: auto;
         margin-right: auto;
         justify-content: center;
