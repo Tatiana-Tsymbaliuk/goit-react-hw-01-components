@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types';
 import css from './Statistics.module.css';
 
 
@@ -23,5 +23,11 @@ function getRandomColor() {
   return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
 }
 
-
+Statistics.propTypes = {
+        stats: PropTypes.arrayOf(PropTypes.exact({
+                id: PropTypes.string.isRequired,
+                label: PropTypes.string.isRequired, 
+                percentage: PropTypes.string.isRequired
+    }))    
+}
 
